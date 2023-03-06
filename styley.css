@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    color: black;
+}/*Page1*/
+.Page1{  
+    margin-top: -1cm;
+    background-image: linear-gradient(180deg,
+                    rgba(18, 18, 18, 0.3) 0%,
+                    rgba(106, 106, 107, 0.8) 100%),
+                      url("Food.jpg");
+    background-size: cover;   
+    width: 100%;
+    height: 20cm;
+}
+.hero1{
+    display:flex ;
+}
+.heading1{
+   display: flex;
+    margin-top: 2.5cm;
+    margin-left: 2cm;
+   
+}
+#p1{
+    color: rgb(220, 180, 2);
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    font-weight: bolder;
+    height: 22px;
+    padding: 2px;
+    margin-top: 0.45cm;
+    margin-left: 10px;    
+}
+.list{
+    margin-top: 2.9cm;
+    margin-left: 12cm;
+}
+ul li{
+    height: 5cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    padding-left: 90px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight:bold; 
+}
+li:hover{    
+    color: blueviolet;
+}
+
+.hero2{
+    margin-top: 4cm;
+    color: whitesmoke;
+    margin-left: 15cm;    
+}
+#p2{
+    font-weight: lighter;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p3{
+    font-weight: lighter;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+}
+.button1{
+    margin-top: 0.3cm;
+    padding: 7px;
+    font-size: large;
+   font-weight: bolder;
+    width: 4cm;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color:rgb(27, 26, 26);
+    color:rgb(224, 158, 36);
+    transition: 0.3s;
+}/*Page2*/
+.Page2{
+    display: flex;
+    width: 100%;
+    height: 10cm;
+    background-color: rgb(171, 106, 232);
+    margin: 0cm;
+    padding: 0cm;
+}
+.heading2{
+    display: flex;    
+}
+.box1{
+    margin-top: 1.1cm;
+    margin-left: 4cm;
+    width: 9cm;
+    height: 8cm;
+    border-radius: 15px 50px ;
+}
+.hero3{
+    width: 15cm;
+    height: 7cm;
+    margin-top: 1cm;
+    margin-left: 6cm;
+}
+#head1{
+    text-align: center;
+}
+#para1{
+    padding-top: 1cm;
+    text-align:justify;
+}
+#button2{
+    background-color: white;
+    color: blueviolet;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 3.5cm;
+    letter-spacing: 1px;
+    padding: 2px;
+    height: 1cm;
+    border: none;
+    font-size: large;
+    cursor: pointer;    
+}
+#button2:hover{
+    border: 1px solid black;
+    background-color: transparent;
+    transition: 0.3s;
+    color: white;
+    
+}/*Menu*/
+.menu{
+    width: 100%;
+    height: 19cm;
+    color: whitesmoke;
+    background-color: black;
+}
+.head3{
+    color: white;
+    padding-top: 1.5cm;
+    text-align: center;
+}
+.box{
+    margin-top: 1.3cm;
+    margin-left: 0cm;
+    width: 100%;
+    height: 13cm;
+    display: flex;
+}
+.column1{
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 3cm;
+    width: 23%;
+    background-image: url('chinese.jpg');
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 30px 30px;
+}
+.column2{
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 3cm;
+    width: 23%;
+    background-image: url('south4.jpeg');
+    background-size: cover;   
+    border: 2px solid white;
+    border-radius: 30px 30px;
+}
+.column3{
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 3cm;
+    width: 23%;
+    background-image: url('thali3.jpg');
+    position: center;
+    background-size: cover;
+    border: 2px solid whitesmoke;
+    border-radius: 30px 30px;
+}
+.para{
+    color: whitesmoke;
+    margin-left: 6cm;
+    gap: 9.5cm;
+    display: flex;
+    font-size: 27px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+#p4:hover{
+    color: blueviolet;
+
+}
+#p5:hover{
+    color: blueviolet;
+
+}
+#p6:hover{
+    color: blueviolet;
+
+}
+.choose{
+    display: flex;
+    width: 100%;
+    height: 10cm;
+    background-color: whitesmoke;
+}
+.us{
+    margin-top: 2cm;
+    margin-left:8cm;
+    
+}
+
+#head5{
+    width: 9cm;
+    color: blueviolet;
+    
+}
+
+#para2{
+    width: 9cm;
+    margin-top: 1cm;
+    text-align: justify;
+    
+
+}
+#boxl{
+    background-image: url('choose-removebg-preview\ \(1\).png');
+    background-size: cover;
+    width: 8cm;
+    height: 7cm;
+    border:none;
+    margin-top: 1.5cm;
+    margin-left: 7cm;
+}
+/*Join*/
+.join{
+    background-color:rgb(171, 106, 232);
+    display: flex;
+    width: 75%;
+    height: 4cm;
+    margin-top: 0.5cm;
+    margin-left: 5cm;
+    border-radius: 30px 30px;
+    
+}
+
+#para3{
+    margin-top: 0.7cm;
+    margin-left:2cm;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+#para4{
+    width: 19.5cm;
+    margin-left:2cm;
+    margin-top: 0.5cm;
+    text-align: justify;
+}
+
+#button3{
+    width: 3cm;
+    height: 1cm;
+    padding: 2px;
+    letter-spacing: 1px;
+    background-color: white;
+    color: black;
+    margin-top: 1.5cm;
+    margin-left: 2cm;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px 5px;
+}
+
+#button3:hover{    
+    background-color: black;
+    color: white;
+}
+/* Contact*/
+.contact{
+    display: flex;
+    width: 100%;
+    height: 8cm;
+    background-color: black;
+    margin-top: 1.8cm;
+}
+
+#para5{
+    margin-top: 3cm;
+    margin-left:3cm;
+    font-size: 30px;
+    font-weight: lighter;
+    color:blueviolet;
+    letter-spacing: 2px;
+    
+}
+
+.Contac{
+    margin-top: 2cm;
+    margin-left: 6cm;    
+    
+
+}
+#para7{    
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(132, 131, 131);
+    font-weight: lighter;
+}
+
+#para9{
+    margin-top: 1cm;
+    font-size: 17px;
+    color: white;
+}
+
+#para8{
+    margin-top: 2cm;
+    margin-left: 4cm;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(132, 131, 131);
+    letter-spacing: 2px;
+}
+
+#para10{
+    margin-top: 1cm;
+    margin-left: 4cm;
+    font-size: 17px;
+    color: white;
+}
+
+#para11{
+    margin-top: 5.7cm;
+    margin-left: -7.5cm; 
+    color: rgb(136, 137, 137);
+    letter-spacing: 1px;
+}
